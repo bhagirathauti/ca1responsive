@@ -22,10 +22,11 @@
 }
 
 .good20{
-    padding-top: 10px;
+    padding-top: 40px;
     padding-left: 240px;
     color: white; 
-    position: relative; 
+    position: relative;
+    padding-bottom: 50px;
     background-color: rgb(32,32,32); 
     z-index: -1;
 }
