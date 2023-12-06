@@ -251,3 +251,21 @@
     padding-right: 10px;
     background-color: #181818;
 }
+
+@media (max-width:600px){
+   .menu-side{
+    display: none;
+   }
+   .song-side{
+    display: flex;
+    flex-direction: column;
+   }
+   .master-play{
+    display: none;
+   }
+   .content1{
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+   }
+}
